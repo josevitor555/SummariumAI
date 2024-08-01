@@ -14,8 +14,32 @@
   <title>SummariumAI</title>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline"> SummariumAI, summary your .txt file </h1>
+  <header>
+    <a href="#logo" class="logo">
+      <img src="./images/logo-summary.png" alt="Logo Not Found">
+    </a>
+    <nav class="nav-menu">
+      <li> <a class="hover:underline" href="#home"> Home </a> </li>
+      <li> <a class="hover:underline" href="#mysummary"> My Summary </a> </li>
+      <li> <a class="hover:underline" href="#settings"> Settings </a> </li>
+      <li> <a class="hover:underline" href="#about"> About </a> </li>
+    </nav>
+    <div class="nav-icon">
+      <a href="#menu"> <i class='bx bx-menu' id="menu-icon"></i> </a>
+      <a href="#user"><i class='bx bx-user'></i></a>
+    </div>
+  </header>
 
-  <script src="./JS/main.js"></script>
+  <section class="main-home">
+    <div class="main-text">
+      <h1 class="h1-text mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-6xl lg:text-8xl dark:text-black">Welcome to Summarium</h1>
+      <p class="p-text mb-6 text-lg font-normal text-gray-500 lg:text-3xl sm:px-16 xl:px-48 dark:text-gray-400">Upload your .txt files and let Summarium summarize them</p>
+      <button type="button" class="py-6 px-8 me-2 mb-2 text-2xl font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Summary IT</button>
+    </div>
+    <div class="container-image">
+      <img src="./images/rocket.png" alt="Image not found">
+    </div>
+  </section>
+  <script src="./JS/openmenu.js"></script>
 </body>
 </html>
